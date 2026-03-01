@@ -1,0 +1,378 @@
+[
+	{
+		"id": "VH-1001",
+		"name": "Aster",
+		"model": "Toyota Prius",
+		"year": 2022,
+		"depot": "Oakland",
+		"status": "Available",
+		"healthScore": 92,
+		"lastServiceDate": "2026-01-18",
+		"alerts": ["Tire pressure low (rear-left)"],
+		"serviceHistory": [
+			"2025-10-05: Brake inspection",
+			"2025-12-12: 30k mile service",
+			"2026-01-18: Tire rotation"
+		]
+	},
+	{
+		"id": "VH-1002",
+		"name": "Nimbus",
+		"model": "Honda Insight",
+		"year": 2021,
+		"depot": "Oakland",
+		"status": "Reserved",
+		"healthScore": 84,
+		"lastServiceDate": "2025-12-02",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-07-14: Battery diagnostic",
+			"2025-12-02: Oil & filter"
+		]
+	},
+	{
+		"id": "VH-1003",
+		"name": "Juniper",
+		"model": "Tesla Model 3",
+		"year": 2023,
+		"depot": "San Jose",
+		"status": "Available",
+		"healthScore": 96,
+		"lastServiceDate": "2026-02-03",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-11-01: Cabin filter",
+			"2026-02-03: Software update"
+		]
+	},
+	{
+		"id": "VH-1004",
+		"name": "Orbit",
+		"model": "Ford Escape Hybrid",
+		"year": 2020,
+		"depot": "San Jose",
+		"status": "In Maintenance",
+		"healthScore": 67,
+		"lastServiceDate": "2026-01-05",
+		"alerts": ["Engine warning light", "Brake pad wear"] ,
+		"serviceHistory": [
+			"2025-09-19: Cooling system flush",
+			"2026-01-05: Brake inspection"
+		]
+	},
+	{
+		"id": "VH-1005",
+		"name": "Quill",
+		"model": "Hyundai Ioniq",
+		"year": 2019,
+		"depot": "San Francisco",
+		"status": "Available",
+		"healthScore": 78,
+		"lastServiceDate": "2025-11-20",
+		"alerts": ["Scheduled service overdue by 10 days"],
+		"serviceHistory": [
+			"2025-05-11: 45k mile service",
+			"2025-11-20: Battery health check"
+		]
+	},
+	{
+		"id": "VH-1006",
+		"name": "Basil",
+		"model": "Nissan Leaf",
+		"year": 2018,
+		"depot": "San Francisco",
+		"status": "Reserved",
+		"healthScore": 73,
+		"lastServiceDate": "2025-10-08",
+		"alerts": ["Charging port latch loose"],
+		"serviceHistory": [
+			"2025-03-28: HVAC service",
+			"2025-10-08: Tire replacement"
+		]
+	},
+	{
+		"id": "VH-1007",
+		"name": "Kestrel",
+		"model": "Chevrolet Bolt",
+		"year": 2022,
+		"depot": "Sacramento",
+		"status": "Available",
+		"healthScore": 90,
+		"lastServiceDate": "2026-01-22",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-08-09: Recall inspection",
+			"2026-01-22: Brake service"
+		]
+	},
+	{
+		"id": "VH-1008",
+		"name": "Sable",
+		"model": "Kia Niro Hybrid",
+		"year": 2021,
+		"depot": "Sacramento",
+		"status": "In Maintenance",
+		"healthScore": 61,
+		"lastServiceDate": "2025-12-27",
+		"alerts": ["Transmission check", "Low coolant"] ,
+		"serviceHistory": [
+			"2025-06-13: 40k mile service",
+			"2025-12-27: Diagnostics"
+		]
+	},
+	{
+		"id": "VH-1009",
+		"name": "Dune",
+		"model": "Volkswagen ID.4",
+		"year": 2023,
+		"depot": "Portland",
+		"status": "Available",
+		"healthScore": 94,
+		"lastServiceDate": "2026-01-30",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-10-23: 10k mile service",
+			"2026-01-30: Software update"
+		]
+	},
+	{
+		"id": "VH-1010",
+		"name": "Cedar",
+		"model": "Toyota RAV4 Hybrid",
+		"year": 2020,
+		"depot": "Portland",
+		"status": "Reserved",
+		"healthScore": 81,
+		"lastServiceDate": "2025-12-15",
+		"alerts": ["Rear camera calibration"] ,
+		"serviceHistory": [
+			"2025-06-02: Brake service",
+			"2025-12-15: Oil & filter"
+		]
+	},
+	{
+		"id": "VH-1011",
+		"name": "Solace",
+		"model": "Subaru Crosstrek Hybrid",
+		"year": 2019,
+		"depot": "Portland",
+		"status": "Available",
+		"healthScore": 75,
+		"lastServiceDate": "2025-11-09",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-02-17: 60k mile service",
+			"2025-11-09: Suspension check"
+		]
+	},
+	{
+		"id": "VH-1012",
+		"name": "Mariner",
+		"model": "Ford Maverick Hybrid",
+		"year": 2024,
+		"depot": "Seattle",
+		"status": "Available",
+		"healthScore": 98,
+		"lastServiceDate": "2026-02-08",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-12-01: Pre-delivery inspection",
+			"2026-02-08: Software update"
+		]
+	},
+	{
+		"id": "VH-1013",
+		"name": "Everest",
+		"model": "Hyundai Tucson Hybrid",
+		"year": 2021,
+		"depot": "Seattle",
+		"status": "Available",
+		"healthScore": 88,
+		"lastServiceDate": "2025-12-28",
+		"alerts": ["Front tire tread low"],
+		"serviceHistory": [
+			"2025-04-21: 30k mile service",
+			"2025-12-28: Tire rotation"
+		]
+	},
+	{
+		"id": "VH-1014",
+		"name": "Comet",
+		"model": "Lucid Air",
+		"year": 2023,
+		"depot": "Seattle",
+		"status": "Reserved",
+		"healthScore": 91,
+		"lastServiceDate": "2026-01-12",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-09-08: Software update",
+			"2026-01-12: Cabin filter"
+		]
+	},
+	{
+		"id": "VH-1015",
+		"name": "Aurora",
+		"model": "BMW i4",
+		"year": 2022,
+		"depot": "Los Angeles",
+		"status": "Available",
+		"healthScore": 89,
+		"lastServiceDate": "2025-12-11",
+		"alerts": ["Driver assist calibration due"] ,
+		"serviceHistory": [
+			"2025-08-26: 20k mile service",
+			"2025-12-11: Brake service"
+		]
+	},
+	{
+		"id": "VH-1016",
+		"name": "Slate",
+		"model": "Polestar 2",
+		"year": 2023,
+		"depot": "Los Angeles",
+		"status": "In Maintenance",
+		"healthScore": 64,
+		"lastServiceDate": "2025-12-21",
+		"alerts": ["Battery thermal issue", "Charging limited"] ,
+		"serviceHistory": [
+			"2025-07-03: 15k mile service",
+			"2025-12-21: Diagnostics"
+		]
+	},
+	{
+		"id": "VH-1017",
+		"name": "Atlas",
+		"model": "Volvo XC40 Recharge",
+		"year": 2022,
+		"depot": "Los Angeles",
+		"status": "Available",
+		"healthScore": 93,
+		"lastServiceDate": "2026-01-25",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-10-11: 25k mile service",
+			"2026-01-25: Software update"
+		]
+	},
+	{
+		"id": "VH-1018",
+		"name": "Violet",
+		"model": "Kia EV6",
+		"year": 2024,
+		"depot": "Phoenix",
+		"status": "Available",
+		"healthScore": 97,
+		"lastServiceDate": "2026-02-02",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-11-15: Pre-delivery inspection",
+			"2026-02-02: Software update"
+		]
+	},
+	{
+		"id": "VH-1019",
+		"name": "Harbor",
+		"model": "Rivian R1T",
+		"year": 2023,
+		"depot": "Phoenix",
+		"status": "Reserved",
+		"healthScore": 86,
+		"lastServiceDate": "2025-12-05",
+		"alerts": ["Suspension firmware update pending"] ,
+		"serviceHistory": [
+			"2025-08-18: 10k mile service",
+			"2025-12-05: Software update"
+		]
+	},
+	{
+		"id": "VH-1020",
+		"name": "Mosaic",
+		"model": "Mercedes EQB",
+		"year": 2022,
+		"depot": "Phoenix",
+		"status": "Available",
+		"healthScore": 87,
+		"lastServiceDate": "2025-12-23",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-06-27: 20k mile service",
+			"2025-12-23: Brake inspection"
+		]
+	},
+	{
+		"id": "VH-1021",
+		"name": "Lumen",
+		"model": "Audi Q4 e-tron",
+		"year": 2021,
+		"depot": "Denver",
+		"status": "Available",
+		"healthScore": 82,
+		"lastServiceDate": "2025-11-29",
+		"alerts": ["Tire pressure low (front-right)"] ,
+		"serviceHistory": [
+			"2025-05-02: 30k mile service",
+			"2025-11-29: Tire rotation"
+		]
+	},
+	{
+		"id": "VH-1022",
+		"name": "Quartz",
+		"model": "Genesis GV60",
+		"year": 2023,
+		"depot": "Denver",
+		"status": "In Maintenance",
+		"healthScore": 70,
+		"lastServiceDate": "2026-01-04",
+		"alerts": ["Sensor calibration", "12V battery low"] ,
+		"serviceHistory": [
+			"2025-09-12: 15k mile service",
+			"2026-01-04: Diagnostics"
+		]
+	},
+	{
+		"id": "VH-1023",
+		"name": "Pioneer",
+		"model": "Chevrolet Equinox EV",
+		"year": 2024,
+		"depot": "Denver",
+		"status": "Available",
+		"healthScore": 95,
+		"lastServiceDate": "2026-02-09",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-12-18: Pre-delivery inspection",
+			"2026-02-09: Software update"
+		]
+	},
+	{
+		"id": "VH-1024",
+		"name": "Ridge",
+		"model": "Toyota Corolla Hybrid",
+		"year": 2020,
+		"depot": "Austin",
+		"status": "Reserved",
+		"healthScore": 79,
+		"lastServiceDate": "2025-11-02",
+		"alerts": ["Oil change due"] ,
+		"serviceHistory": [
+			"2025-03-07: 40k mile service",
+			"2025-11-02: Oil & filter"
+		]
+	},
+	{
+		"id": "VH-1025",
+		"name": "Zephyr",
+		"model": "Hyundai Kona Electric",
+		"year": 2019,
+		"depot": "Austin",
+		"status": "Available",
+		"healthScore": 76,
+		"lastServiceDate": "2025-10-22",
+		"alerts": [],
+		"serviceHistory": [
+			"2025-01-25: 55k mile service",
+			"2025-10-22: Brake inspection"
+		]
+	}
+]
