@@ -1,0 +1,1006 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": -18,
+      "name": "Woven Fleet Services",
+      "reusable": true,
+      "clip": true,
+      "width": 954,
+      "height": 618,
+      "fill": "#f1f5f9",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Vme8Q",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#ffffff",
+          "gap": 16,
+          "padding": [
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qZEDZ",
+              "name": "hTitle",
+              "fill": "#0f172a",
+              "content": "Woven Fleet Services",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "YqSGP",
+              "name": "hNav",
+              "fill": "transparent",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YxFck",
+                  "name": "hFleet",
+                  "fill": "#2563eb",
+                  "content": "Fleet",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "kf6kS",
+                  "name": "hReports",
+                  "fill": "#64748b",
+                  "content": "Reports",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "2AvMg",
+                  "name": "hSettings",
+                  "fill": "#64748b",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yEId2",
+          "name": "hDiv",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#e2e8f0"
+        },
+        {
+          "type": "frame",
+          "id": "a0nGz",
+          "name": "Toolbar",
+          "width": "fill_container",
+          "fill": "#ffffff",
+          "gap": 8,
+          "padding": [
+            10,
+            62,
+            10,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CAEwW",
+              "name": "sBox",
+              "width": 190,
+              "height": 32,
+              "fill": "#f8fafc",
+              "cornerRadius": 8,
+              "gap": 6,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "MgXvx",
+                  "name": "sIcon",
+                  "width": 0,
+                  "height": 0,
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "#94a3b8"
+                },
+                {
+                  "type": "text",
+                  "id": "9TBhM",
+                  "name": "sPh",
+                  "fill": "#94a3b8",
+                  "content": "Search vehicles...",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d8vJQ",
+              "name": "stBox",
+              "width": 130,
+              "height": 32,
+              "fill": "#f8fafc",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sM7EY",
+                  "name": "stTxt",
+                  "fill": "#374151",
+                  "content": "All Statuses ▾",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TDb1v",
+              "name": "dpBox",
+              "width": 120,
+              "height": 32,
+              "fill": "#f8fafc",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zWzOI",
+                  "name": "dpTxt",
+                  "fill": "#374151",
+                  "content": "All Depots ▾",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oANLX",
+              "name": "srBox",
+              "width": 155,
+              "height": 32,
+              "fill": "#f8fafc",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XVrSb",
+                  "name": "srTxt",
+                  "fill": "#374151",
+                  "content": "Health: Best First ▾",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PJO3F",
+              "name": "fvBox",
+              "height": 32,
+              "fill": "transparent",
+              "gap": 5,
+              "padding": [
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "MHcO2",
+                  "name": "fvIco",
+                  "width": 0,
+                  "height": 0,
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "#94a3b8"
+                },
+                {
+                  "type": "text",
+                  "id": "oDZ27",
+                  "name": "fvLbl",
+                  "fill": "#64748b",
+                  "content": "Favorites",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Gtmm0",
+              "name": "tbSp",
+              "width": "fill_container",
+              "height": 32,
+              "fill": "transparent"
+            },
+            {
+              "type": "text",
+              "id": "ushaK",
+              "name": "rcTxt",
+              "fill": "#64748b",
+              "content": "25 vehicles",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RJePM",
+          "name": "tbDiv",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#e2e8f0"
+        },
+        {
+          "type": "frame",
+          "id": "W6jjT",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#f1f5f9",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "dgOsC",
+              "name": "Row1",
+              "width": "fill_container",
+              "fill": "transparent",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RjCpX",
+                  "name": "Card Aster",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NYOht",
+                      "name": "c1h",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QeAkT",
+                          "name": "c1i",
+                          "width": "fill_container",
+                          "fill": "transparent",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RDZrE",
+                              "name": "c1n",
+                              "fill": "#0f172a",
+                              "content": "Aster",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "R7B8H",
+                              "name": "c1m",
+                              "fill": "#64748b",
+                              "content": "Toyota Prius · 2022",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7CO7Z",
+                              "name": "c1b",
+                              "fill": "#dcfce7",
+                              "cornerRadius": 999,
+                              "gap": 4,
+                              "padding": [
+                                3,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Xp7hP",
+                                  "name": "c1bt",
+                                  "fill": "#16a34a",
+                                  "content": "Available",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AXFBS",
+                          "name": "c1hs",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#f0fdf4",
+                          "cornerRadius": 24,
+                          "layout": "vertical",
+                          "padding": [
+                            16,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kvEyE",
+                              "name": "c1hv",
+                              "fill": "#16a34a",
+                              "content": "92%",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Ri0b",
+                      "name": "c1mt",
+                      "fill": "#64748b",
+                      "content": "Oakland  ·  Last service Jan 18, 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z6zGx",
+                      "name": "c1al",
+                      "fill": "#fef2f2",
+                      "cornerRadius": 6,
+                      "padding": [
+                        5,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eXPh7",
+                          "name": "c1alt",
+                          "fill": "#dc2626",
+                          "content": "⚠  Tire pressure low (rear-left)",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xs7K0",
+                      "name": "c1ft",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "9lDqI",
+                          "name": "c1fv",
+                          "width": 0,
+                          "height": 0,
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#94a3b8"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7lHjY",
+                          "name": "c1sp",
+                          "width": "fill_container",
+                          "height": 16,
+                          "fill": "transparent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l9SGO",
+                          "name": "c1id",
+                          "fill": "#94a3b8",
+                          "content": "VH-1001",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JXhQe",
+                  "name": "Card Mariner",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CygZa",
+                      "name": "c2h",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yLJx1",
+                          "name": "c2i",
+                          "width": "fill_container",
+                          "fill": "transparent",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pwdIs",
+                              "name": "c2n",
+                              "fill": "#0f172a",
+                              "content": "Mariner",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "F2RZd",
+                              "name": "c2m",
+                              "fill": "#64748b",
+                              "content": "Ford Maverick Hybrid · 2024",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vOIMs",
+                              "name": "c2b",
+                              "fill": "#dcfce7",
+                              "cornerRadius": 999,
+                              "gap": 4,
+                              "padding": [
+                                3,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pgv22",
+                                  "name": "c2bt",
+                                  "fill": "#16a34a",
+                                  "content": "Available",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bteGG",
+                          "name": "c2hs",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#f0fdf4",
+                          "cornerRadius": 24,
+                          "layout": "vertical",
+                          "padding": [
+                            16,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LAqyy",
+                              "name": "c2hv",
+                              "fill": "#16a34a",
+                              "content": "98%",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "i7vgj",
+                      "name": "c2mt",
+                      "fill": "#64748b",
+                      "content": "Seattle  ·  Last service Feb 8, 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KJxQw",
+                      "name": "c2ft",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xUfbO",
+                          "name": "c2fv",
+                          "width": 0,
+                          "height": 0,
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#f59e0b"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ceew1",
+                          "name": "c2sp",
+                          "width": "fill_container",
+                          "height": 16,
+                          "fill": "transparent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SfZvK",
+                          "name": "c2id",
+                          "fill": "#94a3b8",
+                          "content": "VH-1012",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T35wH",
+              "name": "Row2",
+              "width": "fill_container",
+              "fill": "transparent",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "94zuk",
+                  "name": "Card Orbit",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EpzRQ",
+                      "name": "c3h",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "uD8Ax",
+                          "name": "c3i",
+                          "width": "fill_container",
+                          "fill": "transparent",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "82YuZ",
+                              "name": "c3n",
+                              "fill": "#0f172a",
+                              "content": "Orbit",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uxxVY",
+                              "name": "c3m",
+                              "fill": "#64748b",
+                              "content": "Ford Escape Hybrid · 2020",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ykbBH",
+                              "name": "c3b",
+                              "fill": "#fee2e2",
+                              "cornerRadius": 999,
+                              "gap": 4,
+                              "padding": [
+                                3,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "gE3f5",
+                                  "name": "c3bt",
+                                  "fill": "#dc2626",
+                                  "content": "In Maintenance",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zZjzE",
+                          "name": "c3hs",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#fef2f2",
+                          "cornerRadius": 24,
+                          "layout": "vertical",
+                          "padding": [
+                            16,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Uc6la",
+                              "name": "c3hv",
+                              "fill": "#dc2626",
+                              "content": "67%",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "8PgId",
+                      "name": "c3mt",
+                      "fill": "#64748b",
+                      "content": "San Jose  ·  Last service Jan 5, 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "akjY8",
+                      "name": "c3al",
+                      "fill": "#fef2f2",
+                      "cornerRadius": 6,
+                      "padding": [
+                        5,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qOEki",
+                          "name": "c3alt",
+                          "fill": "#dc2626",
+                          "content": "⚠  Engine warning light, Brake pad wear",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NnbfR",
+                      "name": "c3ft",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "1BsMk",
+                          "name": "c3fv",
+                          "width": 0,
+                          "height": 0,
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#94a3b8"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8D3i7",
+                          "name": "c3sp",
+                          "width": "fill_container",
+                          "height": 16,
+                          "fill": "transparent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HnVlc",
+                          "name": "c3id",
+                          "fill": "#94a3b8",
+                          "content": "VH-1004",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pxfXG",
+                  "name": "Card Sable",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dwGtz",
+                      "name": "c4h",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XYqtM",
+                          "name": "c4i",
+                          "width": "fill_container",
+                          "fill": "transparent",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iknYM",
+                              "name": "c4n",
+                              "fill": "#0f172a",
+                              "content": "Sable",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IOp8e",
+                              "name": "c4m",
+                              "fill": "#64748b",
+                              "content": "Kia Niro Hybrid · 2021",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Jrmay",
+                              "name": "c4b",
+                              "fill": "#fee2e2",
+                              "cornerRadius": 999,
+                              "gap": 4,
+                              "padding": [
+                                3,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "a4yl0",
+                                  "name": "c4bt",
+                                  "fill": "#dc2626",
+                                  "content": "In Maintenance",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uvqBy",
+                          "name": "c4hs",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#fef2f2",
+                          "cornerRadius": 24,
+                          "layout": "vertical",
+                          "padding": [
+                            16,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YX25m",
+                              "name": "c4hv",
+                              "fill": "#dc2626",
+                              "content": "61%",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KaoRy",
+                      "name": "c4mt",
+                      "fill": "#64748b",
+                      "content": "Sacramento  ·  Last service Dec 27, 2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ixzlx",
+                      "name": "c4al",
+                      "fill": "#fef2f2",
+                      "cornerRadius": 6,
+                      "padding": [
+                        5,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EFMhg",
+                          "name": "c4alt",
+                          "fill": "#dc2626",
+                          "content": "⚠  Transmission check, Low coolant",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I5ir7",
+                      "name": "c4ft",
+                      "width": "fill_container",
+                      "fill": "transparent",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "7mmmA",
+                          "name": "c4fv",
+                          "width": 0,
+                          "height": 0,
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#94a3b8"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "043QX",
+                          "name": "c4sp",
+                          "width": "fill_container",
+                          "height": 16,
+                          "fill": "transparent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Oo7rS",
+                          "name": "c4id",
+                          "fill": "#94a3b8",
+                          "content": "VH-1008",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
