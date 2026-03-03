@@ -181,44 +181,9 @@ function App() {
       </div>
       <Drawer
         open={selectedVehicle !== null}
-        title={selectedVehicle ? `${selectedVehicle.name} • ${selectedVehicle.model}` : 'Vehicle'}
-        alerts={(selectedVehicle?.alerts?.length ?? 0) > 0}
+        vehicle={selectedVehicle}
         onClose={() => setSelectedVehicle(null)}
-      >
-        {selectedVehicle && (
-          <div>
-            <p>
-              <strong>Depot:</strong> {selectedVehicle.depot}
-            </p>
-            <p>
-              <strong>Status:</strong> {selectedVehicle.status}
-            </p>
-            <p>
-              <strong>Last Service:</strong> {selectedVehicle.lastServiceDate}
-            </p>
-            <div>
-              <strong>Alerts</strong>
-              {selectedVehicle.alerts.length === 0 ? (
-                <p>None</p>
-              ) : (
-                <ul>
-                  {selectedVehicle.alerts.map((alert) => (
-                    <li key={alert}>{alert}</li>
-                  ))}
-                </ul>
-              )}
-            </div>
-            <div>
-              <strong>Service History</strong>
-              <ul>
-                {selectedVehicle.serviceHistory.map((entry) => (
-                  <li key={entry}>{entry}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        )}
-      </Drawer>
+      />
     </>
   )
 }
