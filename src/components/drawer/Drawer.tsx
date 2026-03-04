@@ -41,7 +41,7 @@ const Drawer: React.FC<DrawerProps> = ({ open, vehicle, onClose }) => {
       >
         <header className={styles.header}>
           <h2 className={styles.title}>
-            {hasAlerts && <span aria-label="has alerts">⚠️</span>}
+            {hasAlerts && <span aria-hidden="true">⚠</span>}
             {title}
           </h2>
           <button className={styles.closeButton} type="button" onClick={onClose}>
