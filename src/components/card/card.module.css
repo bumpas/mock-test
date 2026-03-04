@@ -1,82 +1,82 @@
 .card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background-color: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-  padding: 14px;
+  gap: var(--space-4);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
   cursor: pointer;
 
   &.alert {
     border-width: 2px;
-    border-color: #fca5a5;
+    border-color: var(--color-status-alert-border);
   }
 
   &:focus-visible {
-    outline: 2px solid #2563eb;
+    outline: 2px solid var(--color-focus);
     outline-offset: 2px;
   }
 }
 
 .cardSelected {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  border-color: var(--color-focus);
+  box-shadow: var(--shadow-card-selected);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 10px;
+  gap: var(--space-4);
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--space-1);
   flex: 1;
   min-width: 0;
 }
 
 .name {
   margin: 0;
-  font-size: 15px;
+  font-size: var(--text-base);
   font-weight: 600;
-  color: #0f172a;
+  color: var(--color-ink);
 }
 
 .model {
   margin: 0;
-  font-size: 12px;
-  color: #64748b;
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
 }
 
 .badge {
   display: inline-block;
-  padding: 3px 8px;
-  border-radius: 999px;
-  font-size: 11px;
+  padding: 0.1875rem var(--space-3);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-xs);
   font-weight: 500;
-  background-color: #f1f5f9;
-  color: #475569;
+  background-color: var(--color-surface-muted);
+  color: var(--color-text-secondary);
   width: fit-content;
 }
 
 .badgeAvailable {
-  background-color: #dcfce7;
-  color: #16a34a;
+  background-color: var(--color-status-available-bg);
+  color: var(--color-status-available);
 }
 
 .badgeInMaintenance {
-  background-color: #fee2e2;
-  color: #dc2626;
+  background-color: var(--color-status-maintenance-bg);
+  color: var(--color-status-maintenance);
 }
 
 .badgeReserved {
-  background-color: #fef3c7;
-  color: #d97706;
+  background-color: var(--color-status-reserved-bg);
+  color: var(--color-status-reserved);
 }
 
 .health {
@@ -84,11 +84,11 @@
 }
 
 .progress {
-  --size: 48px;
-  --stroke: 5px;
+  --size: var(--size-progress);
+  --stroke: var(--size-progress-stroke);
   --value: 0;
-  --health-color: #16a34a;
-  --health-bg: #f0fdf4;
+  --health-color: var(--color-status-available);
+  --health-bg: var(--color-status-available-surface);
   display: grid;
   place-items: center;
   width: var(--size);
@@ -108,64 +108,64 @@
 
 .progressValue {
   position: relative;
-  font-size: 11px;
+  font-size: var(--text-xs);
   font-weight: 700;
   color: var(--health-color);
 }
 
 .meta {
   margin: 0;
-  font-size: 11px;
-  color: #64748b;
+  font-size: var(--text-xs);
+  color: var(--color-text-tertiary);
 }
 
 .alertPill {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 5px 8px;
-  background-color: #fef2f2;
-  border-radius: 6px;
-  font-size: 11px;
-  color: #dc2626;
+  gap: var(--space-2);
+  padding: 0.3125rem var(--space-3);
+  background-color: var(--color-status-maintenance-surface);
+  border-radius: var(--radius-xs);
+  font-size: var(--text-xs);
+  color: var(--color-status-maintenance);
 }
 
 .footer {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: var(--space-2);
   margin-top: auto;
 }
 
 .vehicleId {
   margin-left: auto;
-  font-size: 11px;
-  color: #94a3b8;
+  font-size: var(--text-xs);
+  color: var(--color-text-placeholder);
 }
 
 .favoriteButton {
   border: none;
   background: transparent;
   padding: 0;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #94a3b8;
+  color: var(--color-text-placeholder);
 
   &:focus-visible {
-    outline: 2px solid #2563eb;
+    outline: 2px solid var(--color-focus);
     outline-offset: 2px;
   }
 }
 
 .favoriteIcon {
-  width: 18px;
-  height: 18px;
+  width: var(--size-icon-md);
+  height: var(--size-icon-md);
 
   &.active {
-    fill: #f59e0b;
-    stroke: #f59e0b;
+    fill: var(--color-accent-favorite);
+    stroke: var(--color-accent-favorite);
   }
 }
