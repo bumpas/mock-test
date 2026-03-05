@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import './App.css'
 import Card, { type Vehicle } from './components/card/Card'
 import Drawer from './components/drawer/Drawer'
 import Toolbar from './components/toolbar/Toolbar'

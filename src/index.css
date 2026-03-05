@@ -1,84 +1,6 @@
+@import "./tokens.css";
+
 @layer base, components, utilities;
-
-:root {
-  /* ---------- Color: Ink ---------- */
-  --color-ink: #0f172a;
-  --color-ink-soft: #1f2937;
-  --color-ink-muted: #374151;
-
-  /* ---------- Color: Text ---------- */
-  --color-text-secondary: #475569;
-  --color-text-tertiary: #64748b;
-  --color-text-placeholder: #94a3b8;
-
-  /* ---------- Color: Surface ---------- */
-  --color-surface: #ffffff;
-  --color-surface-muted: #f1f5f9;
-  --color-surface-page: #f8fafc;
-
-  /* ---------- Color: Border ---------- */
-  --color-border: #e2e8f0;
-  --color-border-input: #cbd5e1;
-
-  /* ---------- Color: Focus ---------- */
-  --color-focus: #2563eb;
-  --color-focus-ring: rgba(37, 99, 235, 0.2);
-
-  /* ---------- Color: Status ---------- */
-  --color-status-available: #16a34a;
-  --color-status-available-bg: #dcfce7;
-  --color-status-available-surface: #f0fdf4;
-  --color-status-maintenance: #dc2626;
-  --color-status-maintenance-bg: #fee2e2;
-  --color-status-maintenance-surface: #fef2f2;
-  --color-status-reserved: #d97706;
-  --color-status-reserved-bg: #fef3c7;
-  --color-status-alert-border: #fca5a5;
-
-  /* ---------- Color: Accent ---------- */
-  --color-accent-favorite: #f59e0b;
-  --color-accent-favorite-ring: rgba(15, 23, 42, 0.45);
-
-  /* ---------- Radius ---------- */
-  --radius-xs: 0.25rem;   /* 4px */
-  --radius-sm: 0.5rem;    /* 8px */
-  --radius-md: 1rem;      /* 16px */
-  --radius-lg: 1.25rem;   /* 20px */
-  --radius-pill: 999px;
-
-  /* ---------- Spacing ---------- */
-  --space-1: 0.25rem;   /* 4px */
-  --space-2: 0.375rem;  /* 6px */
-  --space-3: 0.5rem;    /* 8px */
-  --space-4: 0.625rem;  /* 10px */
-  --space-5: 0.75rem;   /* 12px */
-  --space-6: 0.875rem;  /* 14px */
-  --space-7: 1rem;      /* 16px */
-  --space-8: 1.5rem;    /* 24px */
-
-  /* ---------- Size ---------- */
-  --size-icon-sm: 0.5rem;   /* 8px - dot */
-  --size-icon-md: 1.125rem; /* 18px - favorite icon */
-  --size-progress: 3rem;    /* 48px */
-  --size-progress-stroke: 0.3125rem; /* 5px */
-
-  /* ---------- Font size ---------- */
-  --text-xs: 0.6875rem;   /* 11px */
-  --text-sm: 0.75rem;     /* 12px */
-  --text-base-sm: 0.875rem; /* 14px */
-  --text-base: 1rem;      /* 16px */
-  --text-lg: 1.125rem;    /* 18px */
-
-  /* ---------- Shadow ---------- */
-  --shadow-card: 0 2px 4px rgba(0, 0, 0, 0.06);
-  --shadow-card-selected: 0 0 0 2px var(--color-focus-ring);
-  --shadow-drawer: 0 -10px 30px rgba(15, 23, 42, 0.25);
-  --shadow-empty: 0 12px 30px rgba(15, 23, 42, 0.06);
-
-  /* ---------- Transition ---------- */
-  --transition-fast: 0.2s ease;
-  --transition-drawer: 0.25s ease;
-}
 
 @layer base {
 	*, *::before, *::after {
@@ -109,13 +31,53 @@
 		margin: 0 auto;
 		padding: 5rem;
 	}
-	}
-  
+
 	.card-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		gap: 1rem;
 	}
+
+	.empty-state {
+		margin-top: 2rem;
+		padding: 2rem;
+		text-align: center;
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-empty);
+	}
+
+	.empty-state h2 {
+		margin: 0 0 0.5rem;
+		font-size: var(--text-lg);
+		color: var(--color-ink);
+	}
+
+	.empty-state p {
+		margin: 0 0 1.5rem;
+		color: var(--color-text-secondary);
+	}
+
+	.empty-state__button {
+		border: none;
+		border-radius: var(--radius-pill);
+		padding: 0.5rem 1.25rem;
+		background: var(--color-ink);
+		color: var(--color-surface);
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.empty-state__button:hover {
+		background: var(--color-ink-soft);
+	}
+
+	.empty-state__button:focus-visible {
+		outline: 2px solid var(--color-focus);
+		outline-offset: 3px;
+	}
+}
 
 @layer utilities {
 	.sr-only {
